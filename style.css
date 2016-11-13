@@ -1,0 +1,29 @@
+td, tr{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+
+li{
+    display: inline-block;
+    width: 200px;
+}
+
+
+ul.subMenu{
+    display: none;
+    position: absolute;
+
+
+
+}
+li.catalog{
+    position: relative;
+}
+
+li.catalog:hover ul.subMenu{
+    display: block;
+
+}
